@@ -1,7 +1,5 @@
 package com.java8.streamsExample.core;
 
-import jakarta.ws.rs.OPTIONS;
-
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
