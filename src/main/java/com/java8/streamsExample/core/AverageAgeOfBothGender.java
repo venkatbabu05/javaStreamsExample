@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public class AverageAgeOfBothGender {
+
     public static void main(String[] args) {
         List<Employee> employeeList = LoadEmployees.getEmployeeDate();
         Map<String,Double> output =  employeeList.stream().collect(Collectors.groupingBy(Employee::getGender,Collectors.averagingInt(Employee::getAge)));
