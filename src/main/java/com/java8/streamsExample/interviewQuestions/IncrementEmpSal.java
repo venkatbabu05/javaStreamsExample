@@ -1,11 +1,10 @@
 package com.java8.streamsExample.interviewQuestions;
 
-import com.java8.streamsExample.core.Employee;
-import com.java8.streamsExample.core.LoadEmployees;
+import com.java8.streamsExample.StreamsWithObject.Employee;
+import com.java8.streamsExample.StreamsWithObject.LoadEmployees;
 
 import java.util.Comparator;
 import java.util.List;
-import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class IncrementEmpSal {
