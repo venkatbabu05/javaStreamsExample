@@ -11,6 +11,10 @@ public class FindGivenWordInListOfSentence {
         List<String> input = Arrays.asList("java react spring java","java react spring java");
         Map<String, Long> output = input.stream().flatMap(e -> Stream.of(e.split(" "))).filter(e->e.equals("java")).collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
         output.entrySet().forEach(System.out::println);
+
+        // another solution
+        long test = input.stream().map(e -> Arrays.stream(e.split(" ")).filter(v->v.equalsIgnoreCase("java"))).count();
+        System.out.println(test);
     }
 
 }

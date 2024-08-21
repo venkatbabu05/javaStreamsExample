@@ -1,7 +1,9 @@
 package com.java8.streamsExample.interviewQuestions;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class FindConsecutiveSequenceCount {
     public static void main(String[] args) {
@@ -15,9 +17,10 @@ public class FindConsecutiveSequenceCount {
             }
             System.out.print(input.charAt(i)+""+count);
         }*/
+
         String result = Arrays.stream(input.split("(?<=(.))(?!\\1)"))
                 .map(s -> s.length() + Character.toString(s.charAt(0)))
                 .collect(Collectors.joining());
-        System.out.println(result);
+        //System.out.println(result);
     }
 }
