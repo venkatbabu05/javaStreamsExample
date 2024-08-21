@@ -1,6 +1,6 @@
 package com.java8.streamsExample.StreamsWithObject;
 
-public class Employee {
+public class Employee implements Comparable<Employee> {
 
     private int id;
     private String name;
@@ -101,5 +101,15 @@ public class Employee {
                 ", city='" + city + '\'' +
                 ", yearOfJoining=" + yearOfJoining +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Employee that) {
+        if (this.getAge() > that.getAge()) {
+            return 1;
+        } else {
+            return -1;
+        }
+
     }
 }
