@@ -1,14 +1,12 @@
 package com.java8.streamsExample.interviewQuestions;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
-public class PersonTestCase {
+public class Person {
         String name;
         int age;
 
-        public PersonTestCase(String name, int age) {
+        public Person(String name, int age) {
             this.name= name;
             this.age = age;
         }
@@ -25,12 +23,12 @@ public class PersonTestCase {
             return "Person[" + name + age + " ]";
         }
 
-   @Override
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        PersonTestCase that = (PersonTestCase) o;
-        return age == that.age && Objects.equals(name, that.name);
+        Person person = (Person) o;
+        return age == person.age && Objects.equals(name, person.name);
     }
 
     @Override

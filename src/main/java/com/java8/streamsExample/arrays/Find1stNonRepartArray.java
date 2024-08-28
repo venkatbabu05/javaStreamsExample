@@ -1,4 +1,4 @@
-package com.java8.streamsExample.interviewQuestions;
+package com.java8.streamsExample.arrays;
 
 import java.util.*;
 import java.util.function.Function;

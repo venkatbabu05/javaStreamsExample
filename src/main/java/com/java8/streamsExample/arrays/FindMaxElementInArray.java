@@ -1,4 +1,4 @@
-package com.java8.streamsExample.interviewQuestions;
+package com.java8.streamsExample.arrays;
 
 public class FindMaxElementInArray {
     public static void main(String[] args) {

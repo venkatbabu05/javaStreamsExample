@@ -11,5 +11,9 @@ public class CharCountFromListOfString {
 
         //solution 2
         long sum = word.stream().mapToLong(e -> e.chars().filter(c -> c == 'l').count()).sum();
+
+        //solution3
+        long count3 =word.stream().flatMapToInt(CharSequence::chars).filter(c->c=='l').count();
+
     }
 }
