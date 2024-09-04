@@ -14,9 +14,9 @@ public class ThreadsOddEven implements Runnable {
 
 
         while (count < 10) {
-
+            synchronized (obj) {
             if (count % 2 == 0 && Thread.currentThread().getName().equals("even")) {
-                synchronized (obj) {
+
                     System.out.println(Thread.currentThread().getName() +" value " + count);
                     count++;
                     try {
@@ -26,9 +26,9 @@ public class ThreadsOddEven implements Runnable {
                     }
                 }
             }
-
+            synchronized (obj) {
             if (count % 2 != 0 && Thread.currentThread().getName().equals("odd")) {
-                synchronized (obj) {
+
                     System.out.println(Thread.currentThread().getName() +" value " + count);
                     count++;
                     obj.notify();
