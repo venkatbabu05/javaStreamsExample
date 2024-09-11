@@ -39,7 +39,7 @@ public class FindNthNodeFromEnd {
         obj.printNthNodeFromLast(2);
     }
 
-    private void printNthNodeFromLast(int n) {
+    private void printNthNodeFromLast(int n){
         Node first = head;
         Node second = head;
         for (int i = 0; i < n; i++) {
