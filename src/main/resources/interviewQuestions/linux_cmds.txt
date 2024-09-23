@@ -1,0 +1,22 @@
+1.) how to remove directory and sub folder
+
+rm -r folder-name
+
+2.) To change directory permissions in Linux, use the following:
+
+chmod +rwx filename to add permissions
+chmod -rwx directoryname to remove permissions. 
+chmod +x filename to allow executable permissions.
+chmod -wx filename to take out write and executable permissions.
+
+3.) Copy directories
+
+cp [...file/directory-sources] [destination]
+
+4.) How to copy directories with the cp command
+
+cp ./DirectoryA_1/Folder/ ./DirectoryA_2
+
+cp -r ./DirectoryA_1/Folder/ ./DirectoryA_2
+
+To copy directories, you have to pass the -r flag. This flag informs the cp command to recursively copy a directory and its contents (which could be files or other sub directories). 

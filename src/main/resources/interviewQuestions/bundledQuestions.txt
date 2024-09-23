@@ -1,0 +1,237 @@
+Interviewer : Ankit Gulati
+1. Tell me about past projects and work you done on latest project.
+2. How spring boot runs.
+3. How to exclude classes from autoconfiguring.
+4. Where do you used multithreading? 
+5. What is deamon thread?
+6. Why to use spring boot?
+7. Swap 2 integers without using 3rd one.
+8. How to get spring beans?
+9. What is actuator?
+10. Why microservices came to picture?
+11. Program to Write reversing a linked list? What is linked list structure?
+
+Interviewer : Mohit Mittal
+Questions mostly be scenario based on project we have worked on.
+He asks question mostly on things we mention while answering his questions.
+1. Program to find 'n' th element from end of Linked list.
+2. Which DB will you prefer to use in your application? Mongo/Cassandra/oracle/sql etc
+3. Spring boot annotations used in spring boot.
+4. How do you debug the error in your application? How do you identify which service giving the error?
+5. How developer will know that particular service is down? What provision do we need to make to know something wrong with service?(Alerts)
+6. I had worked on one migration project, he asked about how you migrated to new java version? What changes you made  to app?
+8. How will you write a JUnit test case for a method which has external API call as well as DB call?
+
+Questions mostly be scenario based on project we have worked on.
+1.Given linked list want to print middle element in linked list using java8.
+2.How will decide size of thread pool
+3.Thread pool class
+4.Multithreading concepts
+5.how will write function in class to call database we need to write unit testing no need to call actual database
+6.Which Java 8 features used in previous project
+7.Unit testing
+8.Unit testing framework
+9.How much traffic in microservices transaction in previous project
+
+Interviewer : Abishek Bansal
+Self Introduction
+few questions on previous project -architecture and used technologies
+Roles and responsibilities in previous project
+Indepth about the project i worked
+arr[] = {1, 5, 3, 4, 3, 5, 6}
+k = 2;
+find the first occurence of the duplicate values
+Datastructures
+what is the time complexity of the above code
+which datastructure  is better
+Sorting time complexity
+Asked me to create the table structure of class
+How to handle the dependency
+What is Dependency Injection
+
+@Team: 
+ 1. Create a dead lock situation ?
+ 2. Remove nth(take any element or index) element from the list using any collection ? and which will take less time complexity ?
+ 3. Move or shift the positions from left to right and right to left based on any way using collection.
+ 4. with and with out using pre defined methods examples
+ 
+ Java 8 : My list have the format employeelist.add(new Employee(empId,Empname,EmpSal,age,gender,joingDate,List<Department> departmentList)
+ 
+Department{
+int departId;
+String departName;
+}
+
+Find the max and min salary of the employee from each department ?
+Arrange the employeelist in ascending or descending order based on any field like empID,empName or departId
+Find the average experience of male and female from employee list ?
+Find the second highest salary of the employee ?
+Prepare a map my key is employeename and value is employee salary ?
+Find the employees count from each department ?
+Fetch only distinct employee names from employee list ?
+Find the average experience of employee from employee list ?
+Find the employee names whose name starts with vowels from emploee list 
+Find out the highest experienced employees in the organization ?
+Find the distinct departNames from employee list ?
+
+Interviewer : Ankit Gulati
+1. Tell me about past projects and work you done on latest project.
+2. How spring boot runs.
+3. How to exclude classes from autoconfiguring.
+4. Where do you used multithreading? 
+5. What is deamon thread?
+6. Why to use spring boot?
+7. Swap 2 integers without using 3rd one.
+8. How to get spring beans?
+9. What is actuator?
+10. Why microservices came to picture?
+11. Program to Write reversing a linked list? What is linked list structure?
+ 
+ 
+================
+ 
+Interviewer : Mohit Mittal
+Questions mostly be scenario based on project we have worked on.
+He asks question mostly on things we mention while answering his questions.
+1. Program to find 'n' th element from end of Linked list.
+2. Which DB will you prefer to use in your application? Mongo/Cassandra/oracle/sql etc
+3. Spring boot annotations used in spring boot.
+4. How do you debug the error in your application? How do you identify which service giving the error?
+5. How developer will know that particular service is down? What provision do we need to make to know something wrong with service?(Alerts)
+6. I had worked on one migration project, he asked about how you migrated to new java version? What changes you made  to app?
+8. How will you write a JUnit test case for a method which has external API call as well as DB call?
+ 
+====================	
+ 
+Questions mostly be scenario based on project we have worked on.
+1.Given linked list want to print middle element in linked list using java8.
+2.How will decide size of thread pool
+3.Thread pool class
+4.Multithreading concepts
+5.how will write function in class to call database we need to write unit testing no need to call actual database
+6.Which Java 8 features used in previous project
+7.Unit testing
+8.Unit testing framework
+9.How much traffic in microservices transaction in previous project
+
+SelfIntroduction
+few questions on previous project -architecture and used technologies
+Roles and responsibilities in previous project
+Indepth about the project i worked
+ 
+Springboot architecture
+Multithreading
+Callable vs Runnable
+Create an Rest API with CRUD calls
+ 
+What Unit testing you have used in your project
+ConcurrentModificationException
+Which DB will you prefer to use in your application? Mongo/Cassandra/oracle/sql
+Spring boot annotations used in spring boot.
+How will you handle if any error occurs on  Production 
+Have you worked on any Deployment related tools
+Jenkins
+
+Functional Interface :
+   what are the types of Functional interface : predicate--
+   What are the examples of Functional interface : comparable , comparator, runnable , callable 
+---Completable Future :
+Parallel Stream and sequential stream differences : On which cases do we need to use the methods
+Concurrent HashMap ;
+What are the changes are done in Hash map for storage in java 8 ?
+What are the changes are done in memory configuration ?
+Garbage Collecotor , what are the types GC ?
+ 
+Dead Lock creation ?
+Executor Framework ? 
+
+
+java streams concepts 
+
+Group the Employees by city.
+Group the Employees by age.
+Find the count of male and female employees present in the organization.
+Print the names of all departments in the organization.
+Print employee details whose age is greater than 28.
+Find maximum age of employee.
+Print Average age of Male and Female Employees.
+Print the number of employees in each department.
+Find oldest employee.
+Find youngest female employee.
+Find employees whose age is greater than 30 and less than 30.
+Find the department name which has the highest number of employees.
+Find if there any employees from HR Department
+Find the department names that these employees work for, where the number of employees in the department is over 3.
+Find distinct department names that employees work for.
+Find all employees who lives in ‘Blore’ city, sort them by their name and print the names of employees.	
+No of employees in the organisation
+Find employee count in every department
+Sorting a Stream by age and name fields.
+Highest experienced employees in the organization.
+Print average and total salary of the organization.
+Print Average salary of each department.
+Find Highest salary in the organisation.
+Find Second Highest salary in the organisation.
+Nth Highest salary.
+Find highest paid salary in the organisation based on gender.
+Find lowest paid salary in the organisation based in the organisation.
+Sort the employees salary in the organisation in ascending order
+Highest salary based on department.
+Print list of employee’s second highest record based on department
+Sort the employees salary in each department in ascending order
+Sort the employees salary in each department in descending order
+
+yaml and properti diff
+difference between path param and path variable
+difference put and patch
+IOC and Dependency injection difference
+what is mean by circular dependency ? how to resolve that ?
+Difference between autowired and qualifier
+ what is component ?
+what is the configuration and usage ?
+how can we start spring boot application through CLI 
+If I want to load a class before the embed service starting what are the changes need to do ?
+Spring boot life cycle ?
+How can I handle the exception in spring boot ?
+how can we handle the transaction in spring boot ?
+what are the propagation in JPA Configuration ?
+What are statutes ?
+How to do the spring boot document ?
+swagger and swagger configuration ?
+prepare on CRUD Operations in Spring Boot
+spring vs spring boot 
+profiles configuration ?
+Muliple data base connection in property level :@Configuration
+public class DataSourceConfig {
+@Primary
+@Bean(name = “firstDataSource”)
+@ConfigurationProperties(prefix = “spring.datasource.first”)
+public DataSource firstDataSource() {
+return DataSourceBuilder.create().build();
+}
+@Bean(name = “secondDataSource”)
+@ConfigurationProperties(prefix = “spring.datasource.second”)
+public DataSource secondDataSource() {
+return DataSourceBuilder.create().build();
+}
+}
+ 
+ 
+ Self introduction
+few questions on previous project -architecture and used technologies
+Roles and responsibilities in previous project
+Indepth about the project i worked
+ 
+Given list of test cases need to write the logic for passing all the testcases
+Program to find the elements are same in both the list
+find if the first element is null and second element is null and return equal
+find if the first element is not null and second element is null and return same
+ 
+Datastructure
+Springboot annotation
+Scenerio based questions
+classes used for the restAPI
+HashMap internal working
+Hashmap program 
+hash collision
+RestAPI annotation

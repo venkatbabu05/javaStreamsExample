@@ -1,0 +1,52 @@
+Hi Team 
+OOP's
+static key word expanation ?
+what is the difference between IS-A and HAS-A reletion ?
+what is the super key word
+what is the covariant key word ?
+what is the encapsulation ?
+what are the access modifier ?
+what is the object clas and what are the object class ? which is parent object class we have ?
+Is java call by value or call by reference and why ?
+Difference between Overloading and over riding including example ?
+wrapper class
+Recursion
+ 
+String :
+ 
+What are the immutable class we have except string;
+what is the string tokenizer class ?
+what is the difference between string, string buffer and string builder ?
+what is the string constant pool ?
+what is the difference between string literal and new key word may give some example by giving ?
+String s1="Welcome";  
+String s2="Welcome";//It doesn't create a new instance  
+immutable class?
+ 
+Exception :
+ 
+types of exceptional handling ?
+hirarachy for exceptional handling ?
+difference between final, finalize, finally ?
+difference between throw and throws ?
+may be ask on scanario based questions like if the parent didn't define the exception can we define excpetion to the child class ?
+ 
+java inner class:
+what is the inner class and how to create ? adavantages of inner class ?
+ 
+Multithreading:
+ 
+Life cycle Thread and how many ways we can create the thread ?
+can we start a thread twice ?
+what is the daemon thread ?
+Garbage collection ? and types ?
+what are the load classes ?
+Java Thread pool ? types of thread pool ? along with one example ?
+ 
+Synchronization :
+ 
+synchronization in java ?
+synchroized block ?
+static synchronization ?
+dead lock in java ?
+Inter - thread communication ?

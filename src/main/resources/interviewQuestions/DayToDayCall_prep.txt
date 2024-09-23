@@ -1,0 +1,21 @@
+covariant return type in java
+concurrent modification exception?
+why string is immutable in java ?
+what are the examples of immutable class in java
+what is the difference interface and abstract in java ?
+what is the use of super key word ?
+what is the difference between is-A and has-A releation ?
+what is the difference string buffer and string builder ?
+what is the cloning in java and types ?
+what is the difference overriding and overloading ?
+explain the access modifier ?
+what is mean by runtime exception ?
+final, finalize, finally  ?
+throw and throws 
+can't we create custom exception by extend the  throwable ?
+difference between class not found exception and no such class def found excepetion ?
+enum
+internal working of hashmap
+hashmap vs hashtable
+comparable vs comparable
+how create deadlock

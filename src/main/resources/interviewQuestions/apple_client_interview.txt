@@ -1,0 +1,91 @@
+id	name	geneder	date_of_join	dept_id
+1	Lane	M	6/14/2023	5
+2	Skip	M	11/20/2018	1
+3	Marion	F	3/7/2024	3
+4	Carmine	F	4/28/2010	4
+5	Johna	F	6/9/2010	1
+6	Tabbitha	F	12/19/2020	3
+7	Averill	M	12/16/2013	4
+8	Rachele	F	1/14/2020	2
+9	Roosevelt	M	9/22/2011	3
+10	Slade	M	8/12/2022	2
+11	Merell	M	11/26/2013	1
+12	Esra	M	2/24/2016	5
+13	Reynold	M	5/3/2011	1
+
+
+public class Employee {
+
+	private String id;
+	private String name;
+	private String gender;	
+	private String deptId;	
+	private String dateOfJoin;	
+	
+	
+
+}
+
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+	
+		ArrayList<Employee> allEmployees = new ArrayList<>();
+		loadAllEmployees(allEmployees, filename);
+		printNthPositionOfEmployeeInEachDeptByExp(allEmployees);
+	
+	}
+	
+	public static void loadAllEmployees(ArrayList<Employee> allEmployees, String filename) {
+	
+		
+	
+	}
+	
+	public static void printNthPositionOfEmployeeInEachDeptByExp(ArrayList<Employee> allEmployees, int position) {
+	
+				
+		 
+	}
+
+}
+
+==========
+
+Harsha sol
+
+public class Main {
+    public static void main(String[] args) {
+        List<Employee> employees = Arrays.asList(
+            new Employee("Alice", "HR", 5),
+            new Employee("Bob", "HR", 2),
+            new Employee("Charlie", "IT", 10),
+            new Employee("David", "IT", 3),
+            new Employee("Eve", "Finance", 8),
+            new Employee("Frank", "Finance", 6)
+        );
+ 
+        Map<String, List<Employee>> employeesByDept = employees.stream()
+            .collect(Collectors.groupingBy(Employee::getDepartment));
+ 
+        Map<String, List<EmployeeWithPosition>> employeesWithPositionByDept = new HashMap<>();
+ 
+        employeesByDept.forEach((department, empList) -> {
+            List<EmployeeWithPosition> sortedList = empList.stream()
+                .sorted(Comparator.comparingInt(Employee::getExperience).reversed())
+                .map(new Function<Employee, EmployeeWithPosition>() {
+                    private int position = 0;
+ 
+                    @Override
+                    public EmployeeWithPosition apply(Employee employee) {
+                        return new EmployeeWithPosition(employee, ++position);
+                    }
+                })
+                .collect(Collectors.toList());
+ 
+            employeesWithPositionByDept.put(department, sortedList);
+        });
+ 
+        employeesWithPositionByDept.forEach((department, empList) -> {
+            System.out.println("Department: " + department);

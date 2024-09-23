@@ -1,0 +1,131 @@
+callable and runnable
+Thread pool
+single vs fixed thread in thread pool
+service discory
+Arrays.asList vs new ArrayList()
+
+collision in hashmpa
+binding in oracle
+
+load and get in hibernate
+aggregation & compostion
+first level * second cahce  in hibernate
+eager and lazy
+cascade
+submit vs execute in executor
+
+
+Interviewer : Vinoth and sindhu
+1. List of integers given. Remove duplicates. 
+2. type inference and generics
+3. given string array and print distinct char
+4. how security implemented in spring boot
+5. transaction
+6. @Primary
+7. what are the repositories other than jparepositories
+8. Fetch type
+9. static factory class
+10. Factory class
+11. session and session factory
+12. how to manage the session life cycle
+13. trigger and when to set the trigger
+14. types of trigger
+15. cluster and non cluster index
+16. embedable and embedded
+17. transaction in oracle
+18. criteria queries
+19. how to check query performance in hibernate
+20. have u worked with threads and what it is implemented 
+21. Internationalization
+22. reentrant lock
+23. synchronization
+Linux:
+how to remove directory and sub folder
+how to change file permission
+how to copy file
+Dev ops and AWS -> how it is implemented in my old project and what is our role
+
+
+
+
+sayali interview questions:
+
+slow pointer
+faster pointer
+
+madhav mital
+
+
+completable fucntion interface
+
+========================
+
+interview question asked in the group
+
+What is Automic Variable
+what is metaspace?
+How to customize start up banner in spring boot
+@Type annotation
+what are Logging vulnerabilities
+
+ different types of cascade
+execute, submit, invokeany, invokeall in executor service
+Some common functional interface types present in the java.util.function package
+Tell Some Major Reasons to Choose Spring Boot For Microservices Development
+
+
+java, java 8, hibernate, rdms, 
+
+oracle
+
+
+venkat, 
+
+linux
+
+docker file, push, 
+
+kubernates
+
+Given Unsorted Array, find min and max value
+hard link v/s symbolic link
+how to change the file permission
+transaction steps
+what happens if the session object is not closed
+After closing the session, can we add any changes to the same session
+How do confirm if transaction is secured
+how are we handling transaction overhead
+how to handle the heavy traffic to the database
+how to create connection thread pool in java (database connectivity)
+@Primary
+@Value 
+Githook
+Rebase
+code Review github
+managing multiple releases at the same time on git
+Executor, ExecutorService, thread pool
+Spring cloud (GCP and AWS basics)
+Linux commands
+generic -create static method which takes two array type arguments and return set of same type data
+spring security
+access restriction to specific API request
+Design patterns used in you application (Explain proxy)
+List based collection time complexity and hash based collection time complexity
+How to safely shutdown the executor service
+How do you handle the exception in the task submitted to the executor, which part of the code need to be surrounded by try catch block
+producer and consumer lock synchronization, for which method you use the synchronized block
+spring boot exception handling
+which task does you pass with the executor service. Does Runnable throw exception
+submit and execute method of Executor service
+How to increase database performance with huge data
+what does mapToObj do. What is it's use
+what is the use of Enum in java. Can we have constructor for Enum and will it be a public or private constructor
+How does it work when we use annotations in java
+How to create custom annotation in java
+How to achieve internationalization in spring
+can we use sql and nosql database together in the application
+Find all the distinct characters from a list of strings.
+Java generics 
+
+
+

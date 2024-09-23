@@ -1,0 +1,40 @@
+Interviewer : Ankit Gulati
+1. Tell me about past projects and work you done on latest project.
+2. How spring boot runs.
+3. How to exclude classes from autoconfiguring.
+4. Where do you used multithreading? 
+5. What is deamon thread?
+6. Why to use spring boot?
+7. Swap 2 integers without using 3rd one.
+8. How to get spring beans?
+9. What is actuator?
+10. Why microservices came to picture?
+11. Program to Write reversing a linked list? What is linked list structure?
+
+
+================
+
+Interviewer : Mohit Mittal
+Questions mostly be scenario based on project we have worked on.
+He asks question mostly on things we mention while answering his questions.
+1. Program to find 'n' th element from end of Linked list.
+2. Which DB will you prefer to use in your application? Mongo/Cassandra/oracle/sql etc
+3. Spring boot annotations used in spring boot.
+4. How do you debug the error in your application? How do you identify which service giving the error?
+5. How developer will know that particular service is down? What provision do we need to make to know something wrong with service?(Alerts)
+6. I had worked on one migration project, he asked about how you migrated to new java version? What changes you made  to app?
+8. How will you write a JUnit test case for a method which has external API call as well as DB call?
+
+====================	
+
+Questions mostly be scenario based on project we have worked on.
+1.Given linked list want to print middle element in linked list using java8.
+2.How will decide size of thread pool
+3.Thread pool class
+4.Multithreading concepts
+5.how will write function in class to call database we need to write unit testing no need to call actual database
+6.Which Java 8 features used in previous project
+7.Unit testing
+8.Unit testing framework
+9.How much traffic in microservices transaction in previous project
+

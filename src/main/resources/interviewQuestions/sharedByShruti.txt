@@ -1,0 +1,37 @@
+1. association vs composition
+2. What is externalization?
+3. Difference in fail safe and fail fast
+4. Hashmap internal working
+5. what is inner class? what are its type?
+6. What is Transient?
+7. What is method hiding?
+8. difference in get and load methods?
+9. what is method reference? type of method reference
+10. What is cloning? deep and shallow cloning?
+12. Difference in Runnable and Callable?
+13. what is thread? How to create Thread?
+14. What is String Constant Pool(SCP)?
+15. What is covariant return type?
+16. What is @Autowire do? what are its variants?
+17. What is IOC? What are different IOC present in Spring?
+18. Difference in BeanFactory and ApplicationContext.
+19. ApplicationContext implementation classes.
+20. What is ViewResolver? 
+21. Difference in Session Factory and session
+22. Strategy in hibernate
+23. What is second level caching in Hibernate?
+24. what are design patterns & its types?
+25. Which sorting technique is efficient? What are different sorting techniques?
+26. Microservice architecture benefits over monolithic.
+27. What are actuators?
+28. Microservice features.
+
+String s1 = "Bear";
+String s2 = "Bare";
+List<Character> collect =s1.chars().mapToObj(b -> (char) b).toList();
+List<Character> collect1 = s2.chars().mapToObj(c -> (char) c).toList();
+
+List<Character> collect2 = collect.stream().filter(collect1::contains).toList();
+if(collect.size() == collect2.size()) {
+    System.out.println(true);
+}

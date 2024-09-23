@@ -1,0 +1,25 @@
+ what is the difference between primary and unique key
+what is the composite key
+how do you create one to one or many to one relation in hiberanate ?
+what is the procedure and usage
+what is the view and usage
+what is the trigger and usage
+what is the diff between truncate and delete
+save Vs persist vs update
+
+
+Write an SQL query to show the last record from a table.
+Write an SQL query to fetch the first row of a table.
+Write an SQL query to fetch the last five records from a table.
+Write an SQL query to show the current date and time.
+Write an SQL query to show the top 3 students with the highest GPA.
+Write a query to get the EmpFname from the EmployeeInfo table in the upper case using the alias name as EmpName.
+Write a query to get the number of employees working in the department ‘HR’.
+Write a query to create a new table whose data and structure are copied from another table.
+Write a query to display the names of employees that begin with ‘S’.
+Write a query to retrieve the top N records.
+Write a query to obtain relevant records from the EmployeeInfo table ordered by Department in ascending order and EmpLname in descending order.
+Create a query to generate the first and last records from the EmployeeInfo table.
+Write a query to find duplicate records from a table.
+Create a query to fetch the third-highest salary from the EmpPosition table.
+Create a query to fetch the list of employees of the same department.

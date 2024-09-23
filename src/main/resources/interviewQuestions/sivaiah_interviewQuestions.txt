@@ -1,0 +1,156 @@
+1.When to use LinkedList and when to use ArrayList
+2.find repeated string from list of strings?
+3.How do you handle authorization for REST API calls?
+4.Api gateway in microservices
+5.microservices communication(resttemplate,figenclient)
+6.Where you read jwt token in spring security
+Interviewer : Sivaiah Kalle
+
+1. How to make 100 async call on an api ?
+2. When to use LinkedList and when to use ArrayList
+3. Find first non repeated character from String using Streams
+4. Explain the flow of inserting data into a database through a REST API.
+5. Write code snippet of repository class to insert data
+6. Write rest controller api to take file and form data as input
+7. How do you handle authorization for REST API calls?
+
+Count of each character in a given string using streams
+Find Nth highest salary based on department
+how to fetch millions of records from DB and it should be faster
+How to avoid duplicates while inserting into Kafka topic
+what is functional interface
+what is lambda 
+what is @SpringBootApplication annotation
+
+Interviewer: Siddhartha Guptha
+ 
+Explain about recent project and the tech stack used in that project.
+Difference between Concurrent HashMap and HashMap.
+How Concurrent HashMap works internally.
+How do you secure your Spring boot services
+Scenario based questions about Authentication and Authorization.
+How do you perform authentication and authorization in a heavy loaded system.
+Is there any way to store the user details in the memory and perform authorization without hitting the database every time.
+Did you face any technical challenges in your recent project? if yes, how did you solve that problem.
+What is Multi tenancy.
+When do you use Restful services and when do you use Queues.
+
+
+Integer[]{1,4,8,2,9,12,73,2} get the heighest two number.
+ 
+ 
+using 2 threads print below
+
+Class A -> print 1-26
+Class B -> print a-z
+
+
+List<Employee> list = Arrays.asList<new Employee(1,"a",100),new Employee(2,"a",200)....>
+//get only name
+}
+Class Employee
+{
+	private int id;
+	private String name;
+	private int salary;
+}
+
+===================
+
+1.int[] arr={1,2,3,4,6,7}
+ 
+
+find the missing numbers in array using simple core java ?
+  
+2. find the how many vowels in the string using simple core java ?
+ 
+3. 
+
+Map<String,Integer> map=new HashMap<String,Integer>
+ 
+String is the employee name and interger is employee salary
+ 
+using stream api find the highest salary of the employee ?
+ 
+
+4.) 
+
+Map<String,String> empMap=new HashMap<String,String>
+ 
+find the female and male count in map
+ 
+String key is name ane string value as gender
+ 
+5.)
+
+int[] integers=(3,4,3,6,4,1,2,3,2)
+ 
+find the non-repeated integer from the array using stream api ?
+  
+========================
+
+String s ="Hi";
+String s1 = new String("Hi");
+String s2 = s1;
+String s3 = s1.intern();
+System.out.println(s==s1);  //1-
+System.out.println(s==s3); //2-
+System.out.println(s.equals(s1)); //3-
+System.out.println(s1.equals(s3)); //4-
+
+========================
+
+
+try        {
+            int i = Integer.parseInt("abc");
+        }catch(Exception ex)
+        {
+            SOP("Exception");
+        }catch(NumberFormatException ex)
+        {
+            SOP("Number Format Exception");
+        }finally{SOP("in finally");}
+		
+	============================	
+		
+		interface A {
+int x;	
+void m1();
+}
+public class B implements A {
+int x = 20;
+public void m1(){
+  System.out.println("One"); 	
+}
+}
+
+===================================
+
+
+class B
+{
+	{
+	 System.out.println("Class B");
+	}
+	static
+	{
+	  System.out.println("static B");
+	}
+	psvm(String s[])
+	{
+          SOP("I am in main");
+          new B();
+	}
+}
+
+=========================================
+
+interface A {
+A() { }	
+void m1();
+}
+public abstract class B implements A {
+public void m1(){
+  System.out.println("One"); 	
+}
+}

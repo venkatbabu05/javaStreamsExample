@@ -1,0 +1,90 @@
+Saravana kumar:
+ 
+1) How to findout root cause for outof memory errors in production
+2) Difference between completable future and executor service and when to use what?
+3) How to identify the performance issues in database query and how do you fix it?
+4) Scenario basaed question on @qualifier annotations
+5) How to do maintain security in springboot applications
+6) How to use pagination in springboot
+7) Concurrent modificatin exception and how do you fix it
+8) what is heap dump
+9) How do you handle exceptions in completable future
+10) How do you create bean based on a certain condition
+11) Scenario basaed question to exclude beans from autoconfiguration
+12) Difference between map and flatmap and examples
+13) write a program to print duplicates strings and its count;
+14) write a program to identify and print index of the elements in the given array, that gives the target value;
+	Input: nums = [2,7,11,15], target = 9 
+	Output: 0,1
+	
+	===============
+	
+	1) Explain about previous project
+
+2) Java8 features
+
+3) What are the Spring boot annotations you have use in your previous project 
+
+and explain the use of those annotations
+
+4) How to create a crud api using various HTTP methods
+
+5) What is microservice architecture and how the security between microservices will be maintained.
+
+6) Write a program to find out number of occurrences of each character in a string
+
+7) How to define a custom functional interface and how to you use it in your class.
+
+8) What is @Qualifier annotation?
+
+9) If multiple services are communicating each other, if one service is going down how to avoid affecting other 
+
+services communicating each other?
+
+10)java program to return the index values if sum of those two numbers is matches with given target
+
+int nums[] = {10,20,5,2,9,3,4}, target=7
+
+11)java 8 streams to find top 2 experienced employees of each department from employees List
+
+12)Write a program to find out number of occurrences of each character in a string
+
+13)what is jwt and how it is being handled in springboot?
+
+14)difference between map and flatmap
+
+15)difference between arraylist and linkedlist
+
+16)difference between @pathparam & query param(@RequestParam)
+ 
+17)how to connect multiple database in springboot
+ 
+18)If one of the class is not annotated with streotype annotations but autowring the same class in another class. what will happen if we run the application?
+ 
+ 
+ 
+ 
+ 
+ 
+ =================
+ 
+ 
+ 
+ 1.Any knowledge on AWS?
+2.Microservices vs monolith?
+3.shift all zeroes to right of array  [2,0,5,0,8].
+4.group all employees by department.
+5.Return three sorted employee lists with name, salary and age 
+6.Print repeated characters and their count with/without using streams.
+7.Explain how CI/CD works.
+8.What is race condition and its solution?
+9.How to identify deadlock?
+10.Java 17/21 new features
+11. Difference between map and flatmap.
+12. What is used by forEach in Stream API?
+13. Parallel vs concurrent vs asynchronous.
+14.Spring vs Spring boot
+15.Name some annotations of Spring boot.
+16.What is use of @EnableAutoConfiguration?
+17.How multiple profiles are managed in Spring boot for different environment?
+18. What are functional interfaces introduced in Java 8?

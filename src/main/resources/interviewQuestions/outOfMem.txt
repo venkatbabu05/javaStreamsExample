@@ -1,0 +1,12 @@
+Increasing the heap size is not a "fix" it is a "plaster", 100% temporary. It will crash again in somewhere else. To avoid these issues, write high performance code.
+
+Use local variables wherever possible.
+Make sure you select the correct object (EX: Selection between String, StringBuffer and StringBuilder)
+Use a good code system for your program(EX: Using static variables VS non static variables)
+Other stuff which could work on your code.
+Try to move with multy THREADING
+
+
+OutOfMemoryError usually means that you’re doing something wrong, either holding onto objects too long or trying to process too much data at a time.
+ Sometimes, it indicates a problem that’s out of your control, such as a third-party library that caches strings or an application server that doesn’t clean up after deploys.
+ And sometimes, it has nothing to do with objects on the heap.
